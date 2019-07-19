@@ -77,7 +77,7 @@ La siguiente tabla muestra rutas para poder obervar los datos guardados en la ba
 | Nombre | ruta | Response|
 | ------ | ------ |-----|
 | Consulta usuarios |http://localhost:9093/users |lista de usuarios
-| Consulta usuario id| http://localhost:9093/users{id} |usuarios
+| Consulta usuario id| http://localhost:9093/{id} |usuarios
 
 
 
