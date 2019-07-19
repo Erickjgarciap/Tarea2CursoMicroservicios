@@ -40,4 +40,23 @@ $ java -jar target/tarjeta-0.0.1-SNAPSHOT.jar
 Al final se levantara un servidor en el puerto 9092 para el proyecto workstation
 
 
+# Compilar el Front
 
+Para compilar el front las tecnologias usadas son 
+-Angularjs
+
+Descargar el proyecto front y para compilarlo seria lo siguiente:
+
+```sh
+$ cd /rutadondelodescargaste/front/colas1
+$ npm install
+$ ng serve
+```
+Una vez que se acabe de instalar todo con el npm install se levantara un servidor del front con el comando ng serve.
+la ruta del front es http://localhost:4200 como se muestra en la imagen
+
+![alt text](https://github.com/Erickjgarciap/Tarea2CursoMicroservicios/blob/master/Captura%20de%20Pantalla%202019-07-19%20a%20la(s)%2017.21.39.png)
+
+Despues de levantar los microservicios y el front se procede a rellenar el formulario y observar todo lo que pasa en la terminal de cada jar
+
+![alt text](https://github.com/Erickjgarciap/Tarea2CursoMicroservicios/blob/master/Captura%20de%20Pantalla%202019-07-19%20a%20la(s)%2017.28.02.png)
