@@ -8,6 +8,14 @@ atraves de rabbitmq como lo vimos en clase.
 El micro servicio usuario dispara un evento y tiene que mandar el mensaje a la cola, donde el micro servicio tarjeta 
 recibe el mensaje de esa cola y dispara otro evento.
 
+# Tecnologias requeridas
+
+- Es importante tener el rabbitmq arriba por que de lo contrario los mensajes de la cola no se enviaran y el procedimiento no se completa.
+
+- Tener Nodejs instalado para ejecutar el front
+
+- Maven instalado
+
 # Compilar el proyecto!
 Proyecto users:
   - Descargar el proyecto users en una ruta especifica, para ejecutarlo se realiza de la siguiente manera
@@ -60,3 +68,18 @@ la ruta del front es http://localhost:4200 como se muestra en la imagen
 Despues de levantar los microservicios y el front se procede a rellenar el formulario y observar todo lo que pasa en la terminal de cada jar
 
 ![alt text](https://github.com/Erickjgarciap/Tarea2CursoMicroservicios/blob/master/Captura%20de%20Pantalla%202019-07-19%20a%20la(s)%2017.28.02.png)
+
+Si se selecciona el checkbox se dispara el evento y reaccionan todas las colas, si no, solo se guarda en base de datos.
+
+
+La siguiente tabla muestra rutas para poder obervar los datos guardados en la base de usuarios
+
+| Nombre | ruta | Response|
+| ------ | ------ |-----|
+| Consulta usuarios |http://localhost:9093/users |lista de usuarios
+| Consulta usuario id| http://localhost:9093/users{id} |usuarios
+
+
+
+
+
