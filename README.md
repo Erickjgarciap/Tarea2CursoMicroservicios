@@ -30,7 +30,7 @@ Proyecto tarjeta:
   - Es importante levantar los dos microservicios ya que si uno no se levanta no se podran comunica.
   - El proyecto se compila asi
 ```sh
-$ cd /ruta/com.microservicio.workstation/
+$ cd /ruta/tarjeta/
 $ mvn clean package -DskipTests
 ```
 - El proyecto se ejecuta asi, siempre en la misma ruta donde lo compilaste antes
